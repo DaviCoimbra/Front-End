@@ -1,0 +1,36 @@
+body {
+  background-color: #ff3300;
+}
+
+
+.poke-card {
+  width: 350px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  border-radius: 30px;
+  background: #ffe6e6;
+  box-shadow: 10px 10px 25px rgb(25, 25, 25),
+    -10px -10px 25px rgb(60, 60, 60);
+
+}
+
+.poke-bar {
+  width: auto;
+  height: 80px;
+  text-align: center;
+  position: relative;
+  background-color: rgb(32, 32, 36);
+  border-radius: 30px;
+}
+
+.poke-input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  height: 30px;
+  border-radius: 10px;
+}
