@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width" />
   <title>Pokedex V1</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
       <!--Imagem pokedex-->
       <div>
         <form onsubmit="pesquisarPokemon(event)">
-          <input class="poke-input" placeholder="Digite o Pokemon aqui" type="text" required />
+          <input class="poke-input" placeholder="Digite o Pokemon aqui" type="text" name="pokemon" autocomplete="off" required />
         </form>
       </div>
       <div>
@@ -31,8 +32,10 @@
     </div>
 
     <div class="poke-card">
-      <div class="poke-name"></div>
-      <div class="poke-image"></div>
+      <div class="poke-name">Pokedex</div>
+      <div class="image-container">
+        <img src="images/pokeshadow-transformed.png" class="poke-image" alt="Pokemon desconhecido">
+      </div>
       <div class="poke-id"></div>
       <div class="poke-type"></div>
       <div class="poke-stat"></div>
